@@ -1,4 +1,5 @@
 n = ARGV[0].to_i
-n.times do |i|
-    puts  "#{i * 2}" 
+
+(2 * n).times do |n|
+    print "#{n  + 1}" if (n  + 1).even?
 end
